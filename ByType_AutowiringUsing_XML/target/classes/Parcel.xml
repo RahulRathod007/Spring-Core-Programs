@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+			"https://www.springframework.org/dtd/spring-beans-2.0.dtd">
+		<beans>
+			<bean id="parcel" class="org.techhub.Parcel">
+				<property name="id" value="1"/>
+				<property name="name" value="SmartWatch"/>
+				<property name="sourceAddress" value="Pune"/>
+				<property name="destAddress" value="Mumbai"/>
+			</bean>
+			
+			
+			<bean id="c" class="org.techhub.Courier" autowire="byType">
+				
+			</bean>
+
+		</beans>

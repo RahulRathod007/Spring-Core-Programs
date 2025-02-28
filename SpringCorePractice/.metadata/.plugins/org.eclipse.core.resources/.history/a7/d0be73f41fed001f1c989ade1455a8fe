@@ -1,0 +1,12 @@
+package org.techhub;
+
+import java.util.ResourceBundle;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.core.io.ClassPathResource;
+
+public class EmployeeClientApp {
+	public static void main(String[] args) {
+		Resource r = new ClassPathResource("Product.xml");
+	}
+}

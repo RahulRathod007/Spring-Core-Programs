@@ -1,0 +1,16 @@
+package org.techhub;
+
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+public class ProductClientApp {
+	public static void main(String[] args) {
+		AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(DBConfig.class);
+		Product prod = (Product)context.getBean("p");
+		prod.show();
+		System.out.println(System.identityHashCode(prod));
+		Product prod1 = (Product)context.getBean("p");
+		prod1.show();
+		System.out.println(System.identityHashCode(prod1));
+
+	}
+}

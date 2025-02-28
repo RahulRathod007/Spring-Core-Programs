@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+			"http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+			<beans>
+				<bean id="p1" class="org.techhub.Product">
+					<property name="id" value="1"/>
+					<property name="name" value="Book"/>
+					<property name="price" value="500"/>
+				</bean>
+				
+				<bean id="p2" class="org.techhub.Product">
+					<property name="id" value="2"/>
+					<property name="name" value="TV"/>
+					<property name="price" value="35000"/>
+				</bean>
+				
+				<bean id="p3" class="org.techhub.Product">
+					<property name="id" value="3"/>
+					<property name="name" value="Fan"/>
+					<property name="price" value="3000"/>
+				</bean>
+				
+				<bean id="p4" class="org.techhub.Product">
+					<property name="id" value="4"/>
+					<property name="name" value="Cooler"/>
+					<property name="price" value="5000"/>
+				</bean>
+			</beans>

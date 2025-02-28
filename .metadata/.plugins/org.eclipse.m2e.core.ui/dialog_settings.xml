@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\rahul\eclipse-workspace\SpringCore\SingletonBeanScope_UsingAnnotation"/>
+			<item value="C:\Users\rahul\eclipse-workspace\SpringCore\Singleton_BeanScopeApp"/>
+			<item value="C:\Users\rahul\eclipse-workspace\SpringCore\ByType_AutowiringUsing_XML\src\main\java\org\techhub\Parcel_ClientApplication.java"/>
+			<item value="C:\Users\rahul\eclipse-workspace\SpringCore\ByName_AutoWiringUsing_XML\src\main\java\org\techhub\Student_ClientApplication.java"/>
+			<item value="C:\Users\rahul\eclipse-workspace\SpringCore\SpringCore_FirstApp\src\main\java\Org\Techhub\Product_ClientApp.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="org.techhub"/>
+			<item value="Org.Techhub"/>
+			<item value="Org.techhub"/>
+			<item value="SpringOrg.Techhub"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="PrototypeBeanScope_UsingAnnotation"/>
+			<item value="SingletonBeanScope_UsingAnnotation"/>
+			<item value="Prototype_BeanScopeApp"/>
+			<item value="Singleton_BeanScopeApp"/>
+			<item value="QualifierAnnotationApp"/>
+			<item value="Autowiring_UsingAnnotation"/>
+			<item value="ByConstructor_AutowiringUsingXML"/>
+			<item value="Constructor_AutoWringUsing_XML"/>
+			<item value="ByType_AutowiringUsing_XML"/>
+			<item value="AutoWiringUsing_XML"/>
+			<item value="ObjectDependency_PlayerApp"/>
+			<item value="SpringConstructorInjection"/>
+			<item value="SpringCore_SecondApp"/>
+			<item value="SpringCore_FirstApplication"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenModuleWizardParentPage">
+		<list key="moduleName">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

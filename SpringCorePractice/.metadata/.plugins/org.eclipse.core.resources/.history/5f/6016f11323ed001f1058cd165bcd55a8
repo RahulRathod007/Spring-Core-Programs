@@ -1,0 +1,10 @@
+package org.techhub;
+
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+public class ProductClientApp {
+	public static void main(String[] args) {
+		AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(DBConfig.class);
+		Product p = new (Product)context.getBean("p");
+	}
+}

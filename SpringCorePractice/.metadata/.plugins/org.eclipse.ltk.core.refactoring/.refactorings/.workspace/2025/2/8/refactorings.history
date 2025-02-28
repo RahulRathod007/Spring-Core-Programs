@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;SetterInjectionApp&apos; to &apos;SetterInjectionApp-UsingXMl&apos;" description="Rename resource &apos;SetterInjectionApp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/SetterInjectionApp" name="SetterInjectionApp-UsingXMl" stamp="1739790559856" updateReferences="true"/>
+</session>

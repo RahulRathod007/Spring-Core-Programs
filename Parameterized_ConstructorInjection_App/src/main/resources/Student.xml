@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+			"https://www.springframework.org/dtd/spring-beans-2.0.dtd">
+	<beans>
+		<bean id="student" class="Org.Techhub.Student">
+			<constructor-arg value="1" type="int" index='0'/>
+			<constructor-arg value="RAJ" type="java.lang.String" index='1'/>
+			<constructor-arg value="CSE" type="java.lang.String" index='2'/>
+		</bean>
+		
+	</beans>

@@ -1,0 +1,16 @@
+package Org.Techhub;
+
+import org.springframework.beans.factory.BeanFactory;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.core.io.ClassPathResource;
+import org.springframework.core.io.Resource;
+
+@SuppressWarnings("deprecation")
+public class StudentClientApp {
+
+	public static void main(String[] args) {
+		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("Student.xml");
+		Student std = (Student)context.getBean("s");
+	}
+
+}

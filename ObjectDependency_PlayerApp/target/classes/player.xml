@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+			"https://www.springframework.org/dtd/spring-beans-2.0.dtd">
+			
+	<beans>
+		
+		<!-- Player Class Data  -->
+		<bean id ="p" class="Org.Techhub.Player">
+			<property name="id" value="1"/>
+			<property name="name" value="DHONI"/>
+			<property name="run" value="10000"/>
+		</bean>
+		
+		<bean id ="p1" class="Org.Techhub.Player">
+			<property name="id" value="2"/>
+			<property name="name" value="VIRAT"/>
+			<property name="run" value="5000"/>
+		</bean>
+		
+		<!-- Team Class Data -->
+		<bean id ="t" class="Org.Techhub.Team">
+			<property name="player" ref="p"/>
+		</bean>
+		
+		<bean id ="t1" class="Org.Techhub.Team">
+			<property name="player" ref="p1"/>
+		</bean>
+	</beans>

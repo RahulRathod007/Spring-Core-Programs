@@ -1,0 +1,6 @@
+package org.techhub;
+@component("Org.techhub")
+
+public class Product {
+
+}

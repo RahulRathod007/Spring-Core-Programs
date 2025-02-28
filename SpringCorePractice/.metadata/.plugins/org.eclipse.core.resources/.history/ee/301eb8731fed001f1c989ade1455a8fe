@@ -1,0 +1,11 @@
+package org.techhub;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class EmployeeClientApp {
+	public static void main(String[] args) {
+		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("Employee.xml");
+		Product prod = (Product)context.getBean("p");
+		prod.show();
+	}
+}

@@ -1,0 +1,7 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:New_Test_Config,org.eclipse.launchbar.core.descriptorType.default\:Employee_ClientApplication,org.eclipse.launchbar.core.descriptorType.default\:Product_ClientApp,org.eclipse.launchbar.core.descriptorType.default\:PlayerClientApp,org.eclipse.launchbar.core.descriptorType.default\:StudentApplication,org.eclipse.launchbar.core.descriptorType.default\:Employee_ClientApplication (1)
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:New_Test_Config/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:New_Test_Config/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

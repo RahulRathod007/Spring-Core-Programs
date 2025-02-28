@@ -1,0 +1,6 @@
+package org.techhub;
+@component
+
+public class DBConfig {
+
+}

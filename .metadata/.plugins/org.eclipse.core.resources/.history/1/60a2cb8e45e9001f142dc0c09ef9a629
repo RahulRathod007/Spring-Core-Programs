@@ -1,0 +1,12 @@
+package Org.Techhub;
+
+
+@SuppressWarnings("deprecation")
+public class StudentClientApp {
+
+	public static void main(String[] args) {
+		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("Student.xml");
+		Student std = (Student)context.getBean("s");
+	}
+
+}

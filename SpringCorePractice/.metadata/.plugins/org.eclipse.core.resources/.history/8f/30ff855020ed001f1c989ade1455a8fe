@@ -1,0 +1,18 @@
+package org.techhub;
+
+import java.util.ResourceBundle;
+
+import org.springframework.beans.factory.BeanFactory;
+import org.springframework.beans.factory.xml.XmlBeanFactory;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.core.io.ClassPathResource;
+import org.springframework.core.io.Resource;
+
+public class EmployeeClientApp {
+	public static void main(String[] args) {
+		Resource r = new ClassPathResource("Product.xml");
+		BeanFactory bf = new XmlBeanFactory(r);
+		Product prod = (Product)bf.getBean("p");
+		prod.show();
+	}
+}

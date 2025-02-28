@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+			"https://www.springframework.org/dtd/spring-beans-2.0.dtd">
+	<beans>
+			<!-- Parcel Class Data -->
+			<bean id="p" class="Org.Techhub.Parcel">
+				<property name="id" value="1"/>
+				<property name="name" value="TV"/>
+				<property name="sourceAddress" value="SambhajiNagar"/>
+				<property name="DestAddress" value="Pune"/>
+			</bean>
+			
+			<!-- Courier Class Data -->
+			<bean id="c" class="Org.Techhub.Courier">
+				<property name="CompanyName" value="Om Sai Couriers"/>
+				<property name="Website" value="htpps://Omsaicouriers.com"/>
+				<property name="parcel" ref="p"/>
+			</bean>
+	</beans>
+			

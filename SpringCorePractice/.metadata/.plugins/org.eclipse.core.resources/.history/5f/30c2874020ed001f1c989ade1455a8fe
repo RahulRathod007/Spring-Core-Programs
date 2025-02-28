@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+			"http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+			<beans>
+				<bean id="p" class="org.techhub.Product">
+					<property name="id" value="1"/>
+					<property name="name" value="Book"/>
+					<property name="price" value="500"/>
+				</bean>
+				
+				<bean id="p" class="org.techhub.Product">
+					<property name="id" value="2"/>
+					<property name="name" value="TV"/>
+					<property name="price" value="35000"/>
+				</bean>
+			</beans>

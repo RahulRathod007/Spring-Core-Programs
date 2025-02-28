@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+			"http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+			<beans>
+				<bean id="emp" class="org.techhub.Employee">
+					<constructor-arg value="1" type="int" index="0"/>
+					<constructor-arg value="Ram" type="java.lang.String" index="1"/>
+					<constructor-arg value="15000" type="int" index="2"/>
+				</bean>
+			</beans>

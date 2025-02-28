@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+			"https://www.springframework.org/dtd/spring-beans-2.0.dtd">
+	<beans>
+		<bean id="student" class="org.techhub.Student">
+			<property name="id" value="1"/>
+			<property name="name" value="Ganesh"/>
+			<property name="branch" value="Science"/>
+		</bean>
+		
+		<bean id="c" class="org.techhub.College" autowire="byName"> 
+		
+		</bean>
+	</beans>
